@@ -1,0 +1,268 @@
+@font-face {
+    font-family: dragonball;
+    src: url(./Fontes/DragonBall/Dragon\ Ball.ttf);
+}
+
+@font-face {
+    font-family: speeda;
+    src: url(./Fontes/Speeda/89speedaffair.ttf);
+}
+
+body{
+    background-color:#58391a ;
+}
+
+.manualJogo{
+    position: absolute;
+    width: 1000px;
+    left: 400px;
+    top: 50px;
+    background-color: #58391a;
+    font-family: speeda;
+    font-size: 50px;
+    color: #1BC21F;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding: 50px;
+    cursor: default;
+}
+
+.fecharManual{
+    position: absolute;
+    font-size: 50px;
+    color: #1BC21F;
+    left: 1460px;
+    height: 48px;
+    top: 90px;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+.cenario{
+    position: absolute;
+    height: 50rem;
+    width: 120rem;
+    left: 0px;
+    top: 0px;
+}
+
+.cachorro{
+    position: absolute;
+    left: 50px;
+    top: 570px;
+}
+
+.castor{
+    position: relative;
+    left: 1300px;
+    top: 410px;
+    height: 110px;
+    width: 180px;
+}
+
+.coelho{
+    position: absolute;
+    left: 230px;
+    top: 510px;
+    height: 110px;
+    width: 110px;
+}
+
+.ganso{
+    position: absolute;
+    left: 800px;
+    top: 350px;
+}
+
+.jacare{
+    position: absolute;
+    left: 850px;
+    top: 570px;
+}
+
+.joaninha{
+    position: absolute;
+    left: 1700px;
+    top: 150px;
+    height: 30px;
+    width: 30px;
+}
+
+.lesma{
+    position: absolute;
+    left: 1700px;
+    top: 290px;
+    height: 30px;
+    width: 30px;
+}
+
+.louvaDeus{
+    position: absolute;
+    left: 800px;
+    top: 560px;
+    height: 50px;
+    width: 50px;
+}
+
+.pato{
+    position: absolute;
+    left: 1500px;
+    top: 500px;
+    height: 110px;
+    width: 100px;
+}
+
+.pato2{
+    position: absolute;
+    left: 1250px;
+    top: 500px;
+    height: 110px;
+    width: 100px;
+}
+
+.raposa{
+    position: absolute;
+    left: 500px;
+    top: 290px;
+}
+
+.tartaruga{
+    position: absolute;
+    left: 1670px;
+    top: 600px;
+    height: 150px;
+    width: 200px;
+}
+
+.tucano{
+    position: absolute;
+    left: 1530px;
+    top: 205px;
+    height: 120px;
+    width: 120px;
+}
+
+.troncoArvore1{
+    position: absolute;
+    left: 0px;
+    top: 739px;
+    height: 190px;
+    width: 900px;
+}
+
+.troncoArvore2{
+    position: absolute;
+    left: 1020px;
+    top: 739px;
+    height: 190px;
+    width: 900px;
+}
+
+.inicio{
+    position: absolute;
+    left: 832px;
+    top: 805px;
+    font-family: dragonball;
+    font-size: 65px;
+    color: #1BC21F;
+    cursor: pointer;
+    transition: 0s;
+}
+
+.reiniciar{
+    position: absolute;
+    left: 840px;
+    top: 810px;
+    font-family: dragonball;
+    font-size: 45px;
+    color: #1BC21F;
+    cursor: pointer;
+}
+
+
+.botaoInciar{
+    position: absolute;
+    left: 820px;
+    top: 748px;
+    height: 180px;
+    width: 280px;
+}
+
+.busca1{
+    position: absolute;
+    left: 0px;
+    top: 769px;
+    height: 160px;
+    width: 240px;
+}
+
+.busca2{
+    position: absolute;
+    left: 400px;
+    top: 769px;
+    height: 160px;
+    width: 240px;
+}
+
+.busca3{
+    position: absolute;
+    left: 1650px;
+    top: 769px;
+    height: 160px;
+    width: 240px;
+}
+
+.busca4{
+    position: absolute;
+    left: 1250px;
+    top: 769px;
+    height: 160px;
+    width: 240px;
+}
+
+.timer{
+    position: absolute;
+    left: 930px;
+    top: 0px;
+    font-family: speeda;
+    font-size: 60px;
+    color: #1BC21F;
+    background-color: #58391a;
+    border-radius: 20px;
+    margin: 0px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px black;
+    cursor: default;
+}
+
+.tempoEsgotado{
+    position: absolute;
+    left: 710px;
+    top: 0px;
+    font-family: speeda;
+    font-size: 60px;
+    color: #1BC21F;
+    background-color: #58391a;
+    border-radius: 20px;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 10px 10px 10px black;
+    cursor: default;
+}
+
+.final{
+    position: absolute;
+    left: 680px;
+    top: 300px;
+    font-family: dragonball;
+    font-size: 65px;
+    color: #1BC21F;
+    cursor: pointer;
+    cursor: default;
+    background-color: #58391a;
+    border-radius: 20px;
+    margin: 0px;
+    padding:0px;
+    box-shadow: 10px 10px 10px black;
+    transition: 0s;
+}
