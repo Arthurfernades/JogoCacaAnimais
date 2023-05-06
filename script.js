@@ -41,13 +41,15 @@ iniciar.addEventListener("click", iniciarJogo);
 
 reiniciar.addEventListener("click",reiniciarJogo)
 
-// Instruções do Jogo //
+// Manual do Jogo //
+
+let abreManual = document.querySelector(".abreManual");
 
 let fecharManual = document.querySelector(".fecharManual");
 
 let manual = document.querySelector(".manualJogo");
 
-fecharManual.addEventListener("click",fechaManual)
+fecharManual.addEventListener("click",fechaManual);
 
 function fechaManual()
 {
@@ -55,6 +57,8 @@ function fechaManual()
   manual.style.padding = "0px";
   fecharManual.innerText = null;
   iniciar.innerText = "Iniciar";
+  document.querySelector(".timer").innerText = "30";
+  document.querySelector(".timer").style.padding = "10px";
 }
 
 // Função iniciar/reinciar o jogo //
@@ -69,8 +73,9 @@ function iniciarJogo()
 
 function reiniciarJogo(){
     document.querySelector(".tempoEsgotado").innerText = null;
+    document.querySelector(".timer").innerText = "30";
     final.innerText = null;
-    final.style.padding = null;
+    final.style.padding = "0px";
     clearInterval(intervalo);
     timer();
     posicionaIcones();
@@ -177,7 +182,7 @@ function verificaAnimal(event) {
 let intervalo;
 
 function timer(){
-  let tempoInicial = 10 * 1000; 
+  let tempoInicial = 30 * 1000; 
   let tempoAtual = tempoInicial;
 
   intervalo = setInterval(function() {
